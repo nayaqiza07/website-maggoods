@@ -1,0 +1,20 @@
+.nb-nav {
+  /* border: 3px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+
+.link {
+  margin: 0 15px 0 15px;
+}
+
+.nb-link {
+  color: #6e6e6e;
+  text-decoration: none;
+}
+
+.nb-link:hover {
+  color: #000000;
+}

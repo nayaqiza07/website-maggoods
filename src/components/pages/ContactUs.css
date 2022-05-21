@@ -1,0 +1,10 @@
+.cu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cu-title {
+  padding-top: 5rem;
+}
