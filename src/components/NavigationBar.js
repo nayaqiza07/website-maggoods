@@ -2,13 +2,25 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import "./NavigationBar.css";
+import logo from "./img/logo.png";
 
 const NavigationBar = () => {
   return (
     <div>
-      <Navbar bg="light" expand="lg">
+      <Navbar className="navbar" variant="dark" expand="lg">
         <Container>
-          <Navbar.Brand>Maggoods</Navbar.Brand>
+          <Navbar.Brand>
+            <img
+              alt=""
+              src={logo}
+              width="55"
+              height="50"
+              className="d-inline-block align-top"
+            />{" "}
+          </Navbar.Brand>
+          <h6 className="nb-nav-judul">
+            MAG<span>GOO</span>DS
+          </h6>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="nb-nav">

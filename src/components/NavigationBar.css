@@ -1,3 +1,16 @@
+.navbar {
+  background-color: #fdfbdc;
+}
+
+.nb-nav-judul {
+  color: #128541;
+  font-weight: 700;
+}
+
+.nb-nav-judul span {
+  color: #84c441;
+}
+
 .nb-nav {
   /* border: 3px solid black; */
   display: flex;
@@ -11,10 +24,12 @@
 }
 
 .nb-link {
-  color: #6e6e6e;
+  color: #84c441;
   text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .nb-link:hover {
-  color: #000000;
+  color: #128541;
 }

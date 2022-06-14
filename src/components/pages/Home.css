@@ -2,13 +2,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  background-color: #fdfbdc;
 }
 
-/* .h-container {
-  height: 100vh;
-} */
+.h-container {
+  height: 89.8vh;
+}
 
 .h-title {
   padding-top: 5rem;
+}
+
+.h-title h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.h-magot {
+  color: #128541;
+}
+
+.h-magot span {
+  color: #84c441;
+}
+
+.h-green1 {
+  margin-top: 9rem;
 }

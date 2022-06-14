@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
 import { Home, Services, About, ContactUs } from "./components/pages/pages";
+import "./components/font.css";
 
 function App() {
   return (
