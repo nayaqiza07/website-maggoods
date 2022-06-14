@@ -16,7 +16,7 @@ const Home = () => {
             <p className="mt-4">
               MAGGOODS is an alternative to animal feed at the most affordable
               price and best quality for your livestock. What are you waiting
-              for let's order now
+              for let's order now.
             </p>
             <Button variant="success">Order Here</Button>
             <div>
