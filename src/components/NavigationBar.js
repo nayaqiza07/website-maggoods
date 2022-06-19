@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Container, Navbar, Nav } from "react-bootstrap";
+import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 import "./NavigationBar.css";
 import logo from "./img/logo.png";
 
 const NavigationBar = () => {
   return (
     <div>
-      <Navbar className="navbar" variant="dark" expand="lg">
+      <Navbar className="navbar" expand="lg">
         <Container>
           <Navbar.Brand>
             <img
@@ -29,11 +29,22 @@ const NavigationBar = () => {
                   Home
                 </Link>
               </Nav.Link>
-              <Nav.Link className="link">
-                <Link className="nb-link" to="services/*">
-                  Layanan
-                </Link>
-              </Nav.Link>
+              <NavDropdown
+                className="nb-link link"
+                title="Services"
+                id="basic-nav-dropdown"
+              >
+                <NavDropdown.Item>
+                  <Link className="nb-link" to="services/*">
+                    Order
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link className="nb-link" to="services/*">
+                    Penjemputan Sampah
+                  </Link>
+                </NavDropdown.Item>
+              </NavDropdown>
               <Nav.Link className="link">
                 <Link className="nb-link" to="about/*">
                   Tentang
