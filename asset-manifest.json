@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/website-maggoods/static/css/main.9b5f773e.css",
+    "main.js": "/website-maggoods/static/js/main.801d5b6c.js",
+    "static/js/787.844fe0b8.chunk.js": "/website-maggoods/static/js/787.844fe0b8.chunk.js",
+    "static/media/logo.png": "/website-maggoods/static/media/logo.9a78b4bda9c865e83e29.png",
+    "static/media/green1.png": "/website-maggoods/static/media/green1.77d1951577dded9d29b4.png",
+    "index.html": "/website-maggoods/index.html",
+    "main.9b5f773e.css.map": "/website-maggoods/static/css/main.9b5f773e.css.map",
+    "main.801d5b6c.js.map": "/website-maggoods/static/js/main.801d5b6c.js.map",
+    "787.844fe0b8.chunk.js.map": "/website-maggoods/static/js/787.844fe0b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b5f773e.css",
+    "static/js/main.801d5b6c.js"
+  ]
+}
