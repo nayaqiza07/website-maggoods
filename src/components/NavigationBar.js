@@ -19,7 +19,7 @@ const NavigationBar = () => {
             />{" "}
           </Navbar.Brand>
           <h6 className="nb-nav-judul">
-            MAG<span>GOO</span>DS
+            MAG<span>GOOD</span>S
           </h6>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -35,7 +35,7 @@ const NavigationBar = () => {
                 id="basic-nav-dropdown"
               >
                 <NavDropdown.Item>
-                  <Link className="nb-link" to="services/*">
+                  <Link className="nb-link" to="order/*">
                     Order
                   </Link>
                 </NavDropdown.Item>
@@ -47,12 +47,12 @@ const NavigationBar = () => {
               </NavDropdown>
               <Nav.Link className="link">
                 <Link className="nb-link" to="about/*">
-                  Tentang
+                  About Us
                 </Link>
               </Nav.Link>
               <Nav.Link className="link">
                 <Link className="nb-link" to="contact/*">
-                  Hubungi
+                  Contact
                 </Link>
               </Nav.Link>
             </Nav>

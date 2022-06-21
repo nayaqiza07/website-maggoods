@@ -18,12 +18,23 @@
   font-weight: bold;
 }
 
-.h-magot {
+.h-magot,
+h1 span {
   color: #128541;
 }
 
 .h-magot span {
   color: #84c441;
+}
+
+.h-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.h-link:hover {
+  color: #ffffff;
 }
 
 .h-green1 {

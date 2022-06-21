@@ -1,4 +1,4 @@
-.a {
+.o {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,10 +6,18 @@
   background-color: #fdfbdc;
 }
 
-.a-container {
+.o-container {
   height: 89.8vh;
 }
 
-.a-title {
+.o-title {
   padding-top: 5rem;
+}
+
+h1 {
+  color: #84c441;
+}
+
+.o-card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
